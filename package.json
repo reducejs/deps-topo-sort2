@@ -1,0 +1,32 @@
+{
+  "name": "deps-topo-sort2",
+  "version": "0.0.1",
+  "description": "Like deps-topo-sort, but using the latest stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap test/*.js",
+    "lint": "eslint index.js test/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/deps-topo-sort2.git"
+  },
+  "keywords": [
+    "Sort",
+    "module-deps/dgraph",
+    "output",
+    "topologically"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/deps-topo-sort2/issues"
+  },
+  "homepage": "https://github.com/zoubin/deps-topo-sort2#readme",
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "eslint": "^1.10.1",
+    "tap": "^2.3.1"
+  }
+}
