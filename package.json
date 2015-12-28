@@ -1,6 +1,6 @@
 {
   "name": "deps-topo-sort2",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Like deps-topo-sort, but using the latest stream",
   "main": "index.js",
   "scripts": {
