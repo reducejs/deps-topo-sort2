@@ -6,11 +6,12 @@
   "scripts": {
     "test": "npm run lint && tap test/*.js",
     "lint": "eslint index.js test/*.js",
-    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm test"
+    "cov": "tap --cov test/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm run cov"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoubin/deps-topo-sort2.git"
+    "url": "git+https://github.com/reducejs/deps-topo-sort2.git"
   },
   "keywords": [
     "Sort",
@@ -21,12 +22,12 @@
   "author": "zoubin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoubin/deps-topo-sort2/issues"
+    "url": "https://github.com/reducejs/deps-topo-sort2/issues"
   },
-  "homepage": "https://github.com/zoubin/deps-topo-sort2#readme",
+  "homepage": "https://github.com/reducejs/deps-topo-sort2#readme",
   "devDependencies": {
     "concat-stream": "^1.5.1",
-    "eslint": "^1.10.1",
-    "tap": "^2.3.1"
+    "eslint": "^2.1.0",
+    "tap": "^5.0.1"
   }
 }
